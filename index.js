@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const cookieSession = require('cookie-session');
-const authRouter = require('./routes/admin/admin');
+const authRouter = require('./routes/admin/auth');
 
 
 const app = express();
